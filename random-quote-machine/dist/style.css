@@ -1,0 +1,51 @@
+#quote-box {
+  width: 60vw;
+  background: black;
+  height: 70vh;
+  border-radius: 10px;
+  position: relative;
+}
+
+.display-quote {
+  color: white;
+}
+
+#text {
+  padding-top: 5%;
+  text-align: center;
+  font-size: 28px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#author {
+  font-size: 18px;
+  margin-right: 15px;
+  text-align: right;
+  bottom: 30px;
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  padding-right: 15px;
+}
+
+.buttons {
+  position: absolute;
+  bottom: 15px;
+}
+
+@media (min-height: 500px) {
+  #text {
+    padding-top: 20%;
+    font-size: 35px;
+  }
+  
+  #author {
+    font-size: 24px;
+    padding-right: 50px;
+  }
+  .buttons {
+    bottom: 35px;
+    margin-left: 15px;
+  }
+}
