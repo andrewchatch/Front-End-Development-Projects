@@ -1,0 +1,15 @@
+.button {
+  height: 50px;
+  width: 50px;
+  background: white;
+  border-radius: 15px;
+  line-height: 2em;
+}
+
+#clear {
+  background: #B0B0B0;
+}
+
+#equals {
+  background: #D00000;
+}
